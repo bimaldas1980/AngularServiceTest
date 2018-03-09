@@ -1,0 +1,6 @@
+<h3>Active Users</h3>
+<ul>
+  <li *ngFor="let usr of userService.activeUsers" (click)="OnInactiveteUser(usr)">
+    {{usr}}
+  </li>
+</ul>
